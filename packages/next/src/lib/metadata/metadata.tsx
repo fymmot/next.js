@@ -156,7 +156,7 @@ export function createMetadataComponents({
         {elements.map((el, index) => {
           return React.cloneElement(el as React.ReactElement, { key: index })
         })}
-        {appUsingSizeAdjustment ? <meta name="next-size-adjust" /> : null}
+        {appUsingSizeAdjustment ? <meta name="next-size-adjust" content="" /> : null}
       </>
     )
   }
